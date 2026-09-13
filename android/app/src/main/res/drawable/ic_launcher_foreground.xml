@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- BLE arcs -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,32 C66,40 66,68 54,76" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,24 C74,36 74,72 54,84" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,32 C42,40 42,68 54,76" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M54,24 C34,36 34,72 54,84" />
+
+    <!-- Center block stack -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,40 h24 v8 h-24 z" />
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M42,50 h24 v8 h-24 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,60 h24 v8 h-24 z" />
+
+    <!-- Small BLE diamond -->
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M54,48 L58,54 L54,60 L50,54 Z" />
+</vector>

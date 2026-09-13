@@ -1,0 +1,13 @@
+Cardputer BLE Blocks v1.3
+
+On-the-wire protocol (unchanged):
+  ##BLOCKS N / ##TYPE / ##FILE / ##ID / ##CONTINUATION / ##MORE
+
+On receive: ALL lines starting with ## are stripped.
+The file is only saved when the last block arrives (no ##MORE).
+
+Icon: BLE waves + blocks (adaptive + fallback).
+
+Build (Android Studio or command line):
+  ./gradlew assembleDebug
+  APK: app/build/outputs/apk/debug/app-debug.apk
